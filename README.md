@@ -8,7 +8,7 @@
 
 In the first experiment shown in Figure 1,  several key observations were made regarding the behavior of the paper airplane. Firstly, it was found that a higher initial velocity (V0) resulted in increased altitude at the expense of range. Secondly, it was observed that altering the initial flight angle had minimal impact on the trajectory, indicating a high degree of positive stability in the paper airplane design (Figure 1).
 
-In the second experiment shown in Figure 2, some more key observations were made. In the Monte Carlo Simulations, a trend was identified when altering both initial flight path and initial velocity. All flight paths converged towards a similar pattern after they traveled approximately 10 meters, with the most significant variations occurring within the first 5  meters. This further supported the theory that the paper airplane was designed to have positive stability (Figure 2).
+In the second experiment shown in Figure 2, some more key observations were made. In the Monte Carlo Simulations, a trend was identified when altering both the initial flight path and initial velocity. All flight paths converged towards a similar pattern after they traveled approximately 10 meters, with the most significant variations occurring within the first 5  meters. This further supported the theory that the paper airplane was designed to have positive stability (Figure 2).
 
 Finally, contrary to expectations the aircraft exhibited a brief upward acceleration at the start of the flight, on aggregate (Figure 3). Using the graphs from Figure 1 it was shown that this occurred when there was higher than nominal initial velocity and initial flight path angle. While no official hypothesis was agreed upon one theory was that the simulations conducted leaned more heavily on higher than nominal initial conditions due to uneven distributions of random numbers when rand() was used. 
 
@@ -41,7 +41,7 @@ Overall these findings successfully shed light on the aerodynamic characteristic
 
   ## Fig. 2: Monte Carlo Simulation
   <p align="center">
-    <img src="https://media.github.umn.edu/user/28453/files/58ff6a8a-16a6-4dc0-85d4-acc07b04e3d1" alt="Figure 2">
+    <img src="https://github.com/akim003/PaperPlaneSim/blob/main/figures/Figure%202.png" alt="Figure 2">
   </p>
 
   Figure 2 shows the simulated 2D trajectories of 100 different paper airplane trials by randomizing initial velocity and flight angle. In the beginning of the graph, there is a large amount of variation between the trials, but in the later half of the flight, all of the trajectories seem to follow the same slope.
@@ -54,6 +54,6 @@ Overall these findings successfully shed light on the aerodynamic characteristic
  # Animation
  ## Point-Mass Animation
   <p align="center">
-    <img src="https://media.github.umn.edu/user/28453/files/58955536-f7d5-4857-bc17-1129fec0526c" alt="Figure animation">
+    <img src="https://github.com/akim003/PaperPlaneSim/blob/main/figures/animation.gif" alt="Figure animation">
   </p>
   The animation shows the simulated 2D trajectories of the nominal case, and the scenario where V = 7.5 m/s, and Gamma = +0.4 rad. The nominal case is shown in black and the second scenario is shown in green. The second scenario causes the paper plane to do a loop in the beginning, before slowly making its way downward for the rest of the flight.
