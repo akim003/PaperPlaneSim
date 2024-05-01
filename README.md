@@ -10,7 +10,7 @@ In the first experiment shown in Figure 1,  several key observations were made r
 
 In the second experiment shown in Figure 2, some more key observations were made. In the Monte Carlo Simulations, a trend was identified when altering both initial flight path and initial velocity. All flight paths converged towards a similar pattern after they traveled approximately 10 meters, with the most significant variations occurring within the first 5  meters. This further supported the theory that the paper airplane was designed to have positive stability (Figure 2).
 
-Finally, contrary to expectations the aircraft exhibited a brief upward acceleration at the start of the flight, on aggregate (Figure 3). Using the graphs from Figure 1 it was shown that this occured when there was hgiher than nominal initial velocity and initial flight path angle. While no official hypothesis was agreed upon one theory was that the simulations conducted leaned more heavily on higher than nominal initial conditions due to uneven distributions of random numbers when rand() was used. 
+Finally, contrary to expectations the aircraft exhibited a brief upward acceleration at the start of the flight, on aggregate (Figure 3). Using the graphs from Figure 1 it was shown that this occurred when there was higher than nominal initial velocity and initial flight path angle. While no official hypothesis was agreed upon one theory was that the simulations conducted leaned more heavily on higher than nominal initial conditions due to uneven distributions of random numbers when rand() was used. 
 
 Overall these findings successfully shed light on the aerodynamic characteristics and stability of the given paper airplane under different initial conditions.
 
@@ -47,7 +47,7 @@ Overall these findings successfully shed light on the aerodynamic characteristic
   Figure 2 shows the simulated 2D trajectories of 100 different paper airplane trials by randomizing initial velocity and flight angle. In the beginning of the graph, there is a large amount of variation between the trials, but in the later half of the flight, all of the trajectories seem to follow the same slope.
 
  ## Fig. 3: Time Derivatives
- ![Figure 3](https://github.umn.edu/Kim01598/AEM3103/blob/main/figures/Figure%203.png)
+ ![Figure 3](https://github.com/akim003/PaperPlaneSim/blob/main/figures/Figure%203.png)
   
   Figure 3 shows the simulated time derivatives of the average trajectory for range and height from the Monte Carlo Simulation. In the beginning, the paper plane accelerates upwards before accelerating downwards for the rest of the flight. Conversely, the acceleration forwards remain positive and relatively stable the whole flight.
 
