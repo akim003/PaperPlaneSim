@@ -25,11 +25,11 @@ Overall these findings successfully shed light on the aerodynamic characteristic
   - [CaseA.m](main/CaseA.m) 
     - File created to house the solution to Case A. ODE23 is used to find the height and range curves for the given initial velocities and flight path angles. The results are plotted using the built-in Matlab functions.
   - [CaseB.m](main/CaseB.m) 
-    - File created to house the solution to Case B. ODE23 is used in conjunction with a for loop to generate 100 height vs. range curves based on random initial velocity and initial flight path angles. The data results using the built-in Matlab functions.
+    - File created to house the solution to Case B. ODE23 is used in conjunction with a for loop to generate 100 height vs. range curves based on random initial velocity and initial flight path angles. The results are plotted using the built-in Matlab functions.
   - [CaseC.m](main/CaseC.m) 
-    - File created to house the solution to Case C. A curve fit for the time_array, height_array, and range_array values calculated in CaseB, is found using the built-in Matlab functions polyfit and polyval. The results plotted using the built-in Matlab functions.
+    - File created to house the solution to Case C. A curve fit for the time_array, height_array, and range_array values calculated in CaseB, is found using the built-in Matlab functions polyfit and polyval. The results are plotted using the built-in Matlab functions.
   - [CaseD.m](main/CaseD.m)
-    - File created to house the solution to Case D. The time derivatives of the height and range curve fits found in CaseC are taken using built in matlab function diff(). The results plotted using the built-in Matlab functions.
+    - File created to house the solution to Case D. The time derivatives of the height and range curve fits found in CaseC are taken using built-in Matlab function diff(). The results are plotted using the built-in Matlab functions.
   - [Animation.m](main/Animation.m) 
     - File created to house and export the animation of the nominal and additional scenario. The drawnow command is used to simulate motion in the animation and exportgraphics is used to export the desired animation as a .gif file.
 
