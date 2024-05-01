@@ -35,7 +35,7 @@ Overall these findings successfully shed light on the aerodynamic characteristic
 
   # Figures
   ## Fig. 1: Single Parameter Variation
-  ![Figure 1](https://github.umn.edu/Kim01598/AEM3103/blob/main/figures/Figure%201.png)
+  ![Figure 1](https://github.com/akim003/PaperPlaneSim/blob/main/figures/Figure%201.png)
 
   Figure 1 shows the effects of varying velocity and varying flight angle on the trajectory of the paper plane. Higher velocity and higher flight angle are shown in green while lower velocity and flight angle are shown in red. Nominal velocity and flight angle are included on the graphs in black for comparison. Varying the initial velocity has a more drastic effect on the overall trajectory than the flight angle, which stays relatively close to the nominal.
 
